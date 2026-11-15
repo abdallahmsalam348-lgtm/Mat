@@ -1,0 +1,19 @@
+# Render.com Blueprint for the MATCHLY backend (optional - you can also create the service by hand).
+services:
+  - type: web
+    name: matchly-api
+    runtime: node
+    rootDir: backend
+    plan: free
+    buildCommand: "echo no build step"
+    startCommand: node src/server.js
+    healthCheckPath: /v1/health
+    envVars:
+      - key: PROVIDER
+        value: api-football
+      - key: PLAN_PRESET
+        value: free
+      - key: API_FOOTBALL_KEY
+        sync: false        # you type this value in the Render dashboard; it is never stored in GitHub
+      - key: APP_TOKEN
+        sync: false

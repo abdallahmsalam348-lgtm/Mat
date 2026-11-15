@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="matchly_window_bg">#FF04110C</color>
+    <color name="ic_launcher_background">#FF062117</color>
+    <color name="matchly_emerald">#FF2ECC8F</color>
+    <color name="matchly_gold">#FFD4AF37</color>
+</resources>

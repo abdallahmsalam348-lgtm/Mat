@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MATCHLY</string>
+
+    <!-- التنقل -->
+    <string name="nav_scores">النتائج</string>
+    <string name="nav_competitions">البطولات</string>
+    <string name="nav_search">بحث</string>
+    <string name="nav_favorites">المفضلة</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="back">رجوع</string>
+    <string name="refresh">تحديث</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="clear">مسح</string>
+    <string name="loading">جارٍ التحميل</string>
+
+    <!-- الرئيسية -->
+    <string name="today">اليوم</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_live">مباشر</string>
+    <string name="filter_favorites">المفضلة</string>
+    <string name="empty_matches">لا توجد مباريات في هذا اليوم.</string>
+    <string name="empty_live">لا توجد مباريات مباشرة الآن.</string>
+    <string name="empty_favorite_matches">لا توجد مباريات لفرقك أو بطولاتك المفضلة في هذا اليوم.</string>
+    <string name="no_score">لم تبدأ</string>
+    <string name="match_cd">%1$s ضد %2$s، %3$s، %4$s</string>
+
+    <!-- حالة المباراة -->
+    <string name="status_tbd">يحدد لاحقًا</string>
+    <string name="status_live">مباشر</string>
+    <string name="status_ht">استراحة</string>
+    <string name="status_break">استراحة</string>
+    <string name="status_penalties">ركلات الترجيح</string>
+    <string name="status_suspended">متوقفة</string>
+    <string name="status_interrupted">متوقفة مؤقتًا</string>
+    <string name="status_ft">انتهت</string>
+    <string name="status_aet">وقت إضافي</string>
+    <string name="status_pen">ترجيح</string>
+    <string name="status_awarded">فوز إداري</string>
+    <string name="status_walkover">انسحاب</string>
+    <string name="status_postponed">مؤجلة</string>
+    <string name="status_cancelled">ملغاة</string>
+    <string name="status_abandoned">لم تكتمل</string>
+
+    <!-- مركز المباراة -->
+    <string name="match_center">مركز المباراة</string>
+    <string name="tab_events">الأحداث</string>
+    <string name="tab_lineups">التشكيلة</string>
+    <string name="tab_stats">الإحصائيات</string>
+    <string name="tab_h2h">المواجهات</string>
+    <string name="tab_injuries">الإصابات</string>
+    <string name="penalties_label">ركلات الترجيح %1$s</string>
+    <string name="empty_events">لا توجد أحداث في المباراة بعد.</string>
+    <string name="empty_lineups">التشكيلة غير متاحة بعد.</string>
+    <string name="empty_stats">الإحصائيات غير متاحة لهذه المباراة.</string>
+    <string name="empty_h2h">لا توجد مواجهات سابقة.</string>
+    <string name="empty_injuries">لا توجد معلومات عن الإصابات لهذه المباراة.</string>
+    <string name="formation_label">الخطة %1$s</string>
+    <string name="coach_label">المدرب: %1$s</string>
+    <string name="substitutes">البدلاء</string>
+    <string name="ev_var">حكم الفيديو</string>
+    <string name="ev_own_goal">هدف عكسي</string>
+    <string name="ev_penalty">ركلة جزاء</string>
+    <string name="ev_missed_pen">ركلة جزاء ضائعة</string>
+    <string name="ev_yellow">بطاقة صفراء</string>
+    <string name="ev_red">بطاقة حمراء</string>
+    <string name="ev_second_yellow">بطاقة صفراء ثانية</string>
+    <string name="ev_assist">صناعة: %1$s</string>
+    <string name="stat_possession">الاستحواذ</string>
+    <string name="stat_shots">التسديدات</string>
+    <string name="stat_shots_on">على المرمى</string>
+    <string name="stat_corners">الركنيات</string>
+    <string name="stat_fouls">الأخطاء</string>
+    <string name="stat_offsides">التسلل</string>
+    <string name="stat_yellow">بطاقات صفراء</string>
+    <string name="stat_red">بطاقات حمراء</string>
+    <string name="stat_saves">تصديات</string>
+    <string name="stat_passes">التمريرات</string>
+    <string name="stat_apps">المشاركات</string>
+    <string name="stat_goals">الأهداف</string>
+    <string name="stat_assists">التمريرات الحاسمة</string>
+    <string name="stat_rating">التقييم</string>
+
+    <!-- البطولات والفرق واللاعبون -->
+    <string name="search_competitions_hint">ابحث عن دوري أو دولة</string>
+    <string name="search_hint">ابحث عن فريق أو منتخب أو دوري</string>
+    <string name="search_prompt">اكتب حرفين على الأقل للبحث عن الفرق والمنتخبات والبطولات.</string>
+    <string name="empty_search">لا توجد نتائج.</string>
+    <string name="teams">الفرق</string>
+    <string name="players">اللاعبون</string>
+    <string name="national_team">منتخب وطني</string>
+    <string name="tab_table">الترتيب</string>
+    <string name="tab_fixtures">المباريات</string>
+    <string name="tab_scorers">الهدافون</string>
+    <string name="season_label">موسم %1$s</string>
+    <string name="empty_standings">لا يوجد جدول ترتيب لهذه البطولة.</string>
+    <string name="empty_scorers">لا يوجد هدافون متاحون.</string>
+    <string name="col_team">الفريق</string>
+    <string name="col_played">لعب</string>
+    <string name="col_win">فوز</string>
+    <string name="col_draw">تعادل</string>
+    <string name="col_lose">خسارة</string>
+    <string name="col_gd">فارق</string>
+    <string name="col_points">نقاط</string>
+    <string name="goals_count">%1$s هدف</string>
+    <string name="assists_count">%1$s صناعة</string>
+    <string name="matches">المباريات</string>
+    <string name="squad">التشكيلة الكاملة</string>
+    <string name="empty_squad">معلومات الفريق غير متاحة.</string>
+    <string name="founded_label">تأسس %1$s</string>
+    <string name="age_label">%1$s سنة</string>
+    <string name="injured">مصاب حاليًا</string>
+    <string name="season_stats">إحصائيات الموسم</string>
+    <string name="empty_player_stats">لا توجد إحصائيات متاحة.</string>
+
+    <!-- المفضلة -->
+    <string name="empty_favorites">لا توجد مفضلة بعد. اضغط على القلب بجانب فريق أو بطولة لإضافتها.</string>
+    <string name="add_favorite">إضافة إلى المفضلة</string>
+    <string name="remove_favorite">إزالة من المفضلة</string>
+
+    <!-- الأخطاء والتنبيهات -->
+    <string name="err_offline">لا يوجد اتصال بالإنترنت.</string>
+    <string name="err_timeout">استغرق الخادم وقتًا طويلًا في الرد.</string>
+    <string name="err_rate_limited">طلبات كثيرة. تم بلوغ حد مزود البيانات، حاول لاحقًا.</string>
+    <string name="err_not_configured">لم يتم ضبط مفتاح مزود بيانات كرة القدم في الخادم بعد.</string>
+    <string name="err_unauthorized">رفض الخادم هذا التطبيق (راجع رمز التطبيق في الإعدادات).</string>
+    <string name="err_plan_limit">هذه البيانات غير مشمولة في خطة البيانات الحالية.</string>
+    <string name="err_not_found">غير موجود.</string>
+    <string name="err_server">أعاد الخادم ردًا غير متوقع.</string>
+    <string name="err_unknown">حدث خطأ ما.</string>
+    <string name="banner_demo">بيانات تجريبية: فرق ونتائج وهمية لاستكشاف التطبيق، وليست مباريات حقيقية. اربط خادم بيانات من الإعدادات.</string>
+    <string name="banner_cached_error">%1$s يتم عرض بيانات محفوظة من %2$s.</string>
+
+    <!-- الترحيب -->
+    <string name="onb_choose_language">اختر لغتك</string>
+    <string name="onb_continue">متابعة</string>
+    <string name="onb_welcome_title">كرة القدم بأجمل صورة مباشرة</string>
+    <string name="onb_feature_live">نتائج مباشرة ومباريات ونتائج من حول العالم</string>
+    <string name="onb_feature_center">مركز المباراة: الأحداث والتشكيلات والخطط والإحصائيات</string>
+    <string name="onb_feature_fav">المفضلة والبحث وجداول الترتيب والهدافون</string>
+    <string name="onb_feature_widgets">ويدجت للشاشة الرئيسية وإشعارات المباريات</string>
+    <string name="onb_demo_notice">إلى أن تربط خادم بيانات، يعرض MATCHLY بيانات تجريبية موسومة بوضوح بفرق وهمية. وهي ليست بيانات كرة قدم حقيقية أبدًا.</string>
+    <string name="onb_notifications_title">ابقَ في قلب المباراة</string>
+    <string name="onb_notifications_body">احصل على تنبيهات لبداية المباراة والأهداف والبطاقات الحمراء والاستراحة والنهاية لفرقك المفضلة. يمكنك تغيير ذلك في أي وقت من الإعدادات.</string>
+    <string name="onb_enable_notifications">تفعيل الإشعارات</string>
+    <string name="onb_skip">ليس الآن</string>
+
+    <!-- الإعدادات -->
+    <string name="settings_language">اللغة</string>
+    <string name="settings_arabic_digits">استخدام الأرقام العربية الهندية في اللغة العربية</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="theme_forest">أخضر داكن</string>
+    <string name="theme_black">أسود</string>
+    <string name="theme_light">فاتح</string>
+    <string name="settings_timezone">المنطقة الزمنية</string>
+    <string name="timezone_device">الجهاز</string>
+    <string name="timezone_current">تُعرض الأوقات بتوقيت %1$s</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="notif_enable">إشعارات المباريات</string>
+    <string name="notif_kickoff">بداية المباراة</string>
+    <string name="notif_goals">الأهداف</string>
+    <string name="notif_red_cards">البطاقات الحمراء</string>
+    <string name="notif_halftime">نهاية الشوط الأول</string>
+    <string name="notif_fulltime">نهاية المباراة</string>
+    <string name="notif_honest_note">التنبيهات تشمل فرقك وبطولاتك المفضلة. هذا الإصدار يفحص التغييرات في الخلفية كل 15 دقيقة تقريبًا، لذا قد تتأخر التنبيهات. الإشعارات الفورية تحتاج إلى إعداد Firebase (راجع خارطة الطريق).</string>
+    <string name="settings_favorites">الفرق والبطولات المفضلة</string>
+    <string name="settings_data_source">مصدر البيانات</string>
+    <string name="data_mode_demo">الوضع التجريبي: بيانات وهمية</string>
+    <string name="data_mode_live">بيانات حقيقية عبر %1$s</string>
+    <string name="backend_url">عنوان الخادم (https)</string>
+    <string name="backend_token">رمز التطبيق (اختياري)</string>
+    <string name="save_and_test">حفظ واختبار</string>
+    <string name="test_failed">تعذر الوصول إلى الخادم.</string>
+    <string name="test_ok">تم الاتصال. المزود: %1$s، الخطة: %2$s</string>
+    <string name="force_demo">فرض الوضع التجريبي</string>
+    <string name="settings_about">حول التطبيق</string>
+    <string name="about_version">MATCHLY %1$s</string>
+    <string name="about_disclaimer">بيانات المباريات تأتي من مزود بيانات كرة القدم المربوط بخادمك، وتعتمد التغطية وسرعة التحديث على خطته. MATCHLY مشروع مستقل وغير تابع لأي دوري أو نادٍ.</string>
+
+    <!-- الإشعارات -->
+    <string name="channel_match_events">أحداث المباريات</string>
+    <string name="channel_match_events_desc">بداية المباراة والأهداف والبطاقات الحمراء والاستراحة والنهاية</string>
+    <string name="notif_kickoff_title">انطلقت المباراة</string>
+    <string name="notif_goal_title">هدف!</string>
+    <string name="notif_red_title">بطاقة حمراء</string>
+    <string name="notif_halftime_title">نهاية الشوط الأول</string>
+    <string name="notif_fulltime_title">نهاية المباراة</string>
+
+    <!-- الويدجت -->
+    <string name="widget_compact_label">مباراة MATCHLY</string>
+    <string name="widget_compact_desc">مباراة واحدة: النتيجة المباشرة أو موعد البداية</string>
+    <string name="widget_medium_label">مباريات MATCHLY</string>
+    <string name="widget_medium_desc">حتى ثلاث مباريات، المفضلة أولًا</string>
+    <string name="widget_large_label">مباريات اليوم من MATCHLY</string>
+    <string name="widget_large_desc">مباريات اليوم بنظرة واحدة</string>
+    <string name="widget_large_title">MATCHLY · اليوم</string>
+    <string name="widget_no_data">لا توجد بيانات بعد. افتح MATCHLY مرة واحدة وأنت متصل.</string>
+    <string name="widget_no_matches">لا توجد مباريات اليوم.</string>
+</resources>
