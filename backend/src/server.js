@@ -1,6 +1,7 @@
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { loadConfig, loadDotEnv } from './config.js';
+import { loadConfig } from './config.js';
+import { loadDotEnv } from './dotenv.js';
 import { createApp } from './app.js';
 
 loadDotEnv(join(dirname(fileURLToPath(import.meta.url)), '..', '.env'));

@@ -28,6 +28,8 @@ Use **Chrome** on your phone. Open the Chrome menu (⋮) and turn on **Desktop s
 1. Go to **dashboard.api-football.com**, register (no credit card for the free plan), confirm your email.
 2. Open **Account → My Access** and copy your API key. **This is a secret: never paste it into GitHub files, chats or screenshots.** If it leaks, regenerate it on the same page.
 
+> If Render asks for a payment card you would rather not use, deploy on Cloudflare Workers instead (see `CLOUDFLARE_AR.md`, Arabic; the backend also has `wrangler.toml`).
+
 ### B2. Deploy the backend on Render (free)
 1. Sign up at **render.com** (you can sign in with GitHub).
 2. Tap **New +** → **Web Service** → connect your `matchly` repository.

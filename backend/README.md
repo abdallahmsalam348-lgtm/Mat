@@ -32,6 +32,8 @@ npm test                 # 13 tests against a mock provider
 ## Deploy
 Render: see `docs/SETUP_EN.md` part B (or use `render.yaml` as a Blueprint). Any Node host works (Railway, Fly.io, a VPS).
 
+Cloudflare Workers (no Node server needed): `src/worker.js` + `wrangler.toml`, deploy command `npx wrangler deploy`, set `API_FOOTBALL_KEY` / `APP_TOKEN` as secrets and `PLAN_PRESET` as text. See `docs/CLOUDFLARE_AR.md`. The daily budget counter lives in the isolate's memory, so it can reset when the Worker restarts.
+
 ## Known limits
 * The cache and request counter live in memory: a restart/cold start resets them (Phase 1 in the roadmap: durable store).
 * Written against API-Football's documented format; **not yet run against the live service**. Assumptions to verify with a real key: substitution `player`/`assist` order (the backend swaps them so `player` = player coming on), `goals` for penalty-decided matches, `injuries` and `next/last` availability on your plan.
